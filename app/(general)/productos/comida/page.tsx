@@ -5,7 +5,7 @@ import { productsCart } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useContext } from 'react';
-export const ComidaPage = (): JSX.Element => {
+export const ComidaPage: React.FC = (): JSX.Element => {
     const { products } = useProducts();
 
     // usamos el contexto
