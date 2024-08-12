@@ -5,7 +5,7 @@ import { productsCart } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useContext } from 'react';
-export const AboutPage1 = (): JSX.Element => {
+export const ComidaPage = (): JSX.Element => {
     const { products } = useProducts();
 
     // usamos el contexto
@@ -69,4 +69,4 @@ export const AboutPage1 = (): JSX.Element => {
     );
 };
 
-export default AboutPage1;
+export default ComidaPage;
